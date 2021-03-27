@@ -1,0 +1,23 @@
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-around{
+    justify-content: space-around;
+}
+.form-section{
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+
+}
+.bg{
+    display: block;
+    /* background-image: url("img/pexels-alexander-mils-2068975.jpg"); */
+    background-color: blue;
+    background-color: transparent;
+}
+.carousel-section{
+
+    height: 500px;
+}
