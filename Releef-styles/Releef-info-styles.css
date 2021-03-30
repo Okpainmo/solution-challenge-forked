@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif!important;
+}
+nav {
+    box-shadow: 0 0 15px 1px #dedcdc;        
+}
+nav ul {
+    margin-left: 50px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+.navbar-brand img {
+    width: 75px;
+    height: 35px;
+}
+nav li {
+    margin: 0 15px;
+    padding: 0 5px;
+}
+nav li:hover {
+    border-bottom:2px solid #12028c;
+    transition: border .2s ease;
+}
+nav li a {
+    color: black!important;
+}
+.nav-social-section {
+    margin-right: 20px;
+    margin-left: auto;
+}
+.social-icons {
+    margin: 0 8px;
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 22px;
+}
+.social-icons a {
+    color: black;
+}
+.search-icon {
+    font-size: 22px;
+    padding: 5px 0;
+    margin-left: 25px;
+}
+.section-header {
+    color: #12028c;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.follow-up-text {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.image-array {
+    margin-top: 50px;
+}
+.card img {
+    height: 180px;
+}
+.container {
+    margin-top: 40px;
+}
+.card {
+    border: none!important;
+}
+.card-body {
+    padding: 20px 0!important;
+}
+.card-title {
+    font-weight: bold;
+}
+.more-btn {
+    text-align: center;
+    margin: 50px 0;
+}
+.more-btn .btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white!important;
+    border-radius: 10px;
+    box-shadow: 0 6px 9px -5px black;
+}
+.custom-blue {
+    background-color: #12028c!important;
+}
+footer {
+    min-height: 300px;
+    background-color: rgb(40, 48, 56);
+    color: white;
+    padding: 30px 0;
+}
+footer .col-lg-3 {
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-links .custom-link div {
+    padding: 5px 0;
+}
+.footer-social {
+    color: white;
+}
+.footer-social .first-line {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    font-size: 22px;
+    padding: 0 25px;
+}
+.footer-social .second-line {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 0 50px;
+}
+.first-line .fab:hover, .second-line .fab:hover, .social-icons:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+.brand-name {
+    font-size: 35px;
+}
+.about-brand {
+    font-size: 15px;
+}
+.custom-link {
+    color: #b4abf5;
+}
+.custom-link:hover {
+    text-decoration: none;
+}
+.col-lg-3 > a {
+    color: inherit;
+}
+.col-lg-3 > a:hover {
+    text-decoration: none;
+}
+.about-location {
+    width: 60%;
+    margin: 40px auto 0;
+}
+.author-image-case {
+    display: inline-block;
+}
+.author-image-case img {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    vertical-align: bottom;
+}
+.author-info {
+    display: inline-block;
+    margin-left: 10px;
+}
+.block {
+    display: block;
+}
+.map-banner {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+.location-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.location-text-header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 0 10px 0;
+    font-size: 25px;
+    text-align: center;
+}
+.location-text-header::after {
+    content: "";
+    margin: 0 auto;
+    width: 100px;
+    background-color: #12028c;
+    height: 3px;
+    display: block;
+}
+.btn:focus {
+    box-shadow: none!important;
+}
+.location-in-detail .card img {
+    box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%);;
+}
