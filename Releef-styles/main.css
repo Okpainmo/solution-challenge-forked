@@ -1,0 +1,16 @@
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-around{
+    justify-content: space-around;
+}
+.form-section{
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+
+}.carousel-section{
+
+    height: 500px;
+}
