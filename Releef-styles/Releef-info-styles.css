@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif!important;
+}
+nav {
+    box-shadow: 0 0 15px 1px #dedcdc;        
+}
+nav ul {
+    margin-left: 50px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+.navbar-brand img {
+    width: 75px;
+    height: 35px;
+}
+nav li {
+    margin: 0 15px;
+    padding: 0 5px;
+}
+nav li:hover {
+    border-bottom:2px solid #12028c;
+    transition: border .2s ease;
+}
+nav li a {
+    color: black!important;
+}
+.nav-social-section {
+    margin-right: 20px;
+    margin-left: auto;
+}
+.social-icons {
+    margin: 0 8px;
+    padding: 0 3px;
+    display: inline-block;
+    font-size: 22px;
+}
+.social-icons a {
+    color: black;
+}
+.search-icon {
+    font-size: 22px;
+    padding: 5px 0;
+    margin-left: 25px;
+}
+.section-header {
+    color: #12028c;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.follow-up-text {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.image-array {
+    margin-top: 50px;
+}
+.card img {
+    height: 180px;
+}
+.container {
+    margin-top: 40px;
+}
+.card {
+    border: none!important;
+}
+.card-body {
+    padding: 20px 0!important;
+}
+.card-title {
+    font-weight: bold;
+}
+.more-btn {
+    text-align: center;
+    margin: 50px 0;
+}
+.more-btn .btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white!important;
+    border-radius: 10px;
+}
+.custom-blue {
+    background-color: #12028c!important;
+}
+footer {
+    min-height: 300px;
+    background-color: rgb(40, 48, 56);
+    color: white;
+    padding: 30px 0;
+}
+footer .col-lg-3 {
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-links .custom-link div {
+    padding: 5px 0;
+}
+.footer-social {
+    color: white;
+}
+.footer-social .first-line {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    font-size: 22px;
+    padding: 0 25px;
+}
+.footer-social .second-line {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding: 0 50px;
+}
+.first-line .fab:hover, .second-line .fab:hover, .social-icons:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+.brand-name {
+    font-size: 35px;
+}
+.about-brand {
+    font-size: 15px;
+}
+.custom-link {
+    color: #b4abf5;
+}
+.custom-link:hover {
+    text-decoration: none;
+}
