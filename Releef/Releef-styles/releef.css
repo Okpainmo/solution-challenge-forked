@@ -76,18 +76,18 @@ nav li a {
 .card-title {
     font-weight: bold;
 }
-.more-btn {
+.custom-btn {
     text-align: center;
     margin: 50px 0;
 }
-.more-btn .btn {
+.custom-btn .btn {
     padding: 10px 30px;
     font-size: 20px;
     color: white!important;
     border-radius: 10px;
     box-shadow: 0 6px 9px -5px black;
 }
-.more-btn .btn:hover {
+.custom-btn .btn:hover {
     transform: scale(1.1);
     transition: transform .5s ease-in-out;
 }
@@ -198,8 +198,53 @@ footer .col-lg-3 {
 }
 .carousel-banner {
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
+    /* box-shadow: 0 0 15px 1px #dedcdc;         */
 }
 .carousel-item {
-    height: 480px;
+    height: 550px;
+    background-size: cover;
 }
+.overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: inherit;
+}
+.overlay-content {
+    padding: 130px 130px 0;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.small-text {
+    font-size: 40px;
+}
+.overlay-btn {
+    color: white!important;
+    padding: 10px 50px!important;
+    font-size: 20px!important;
+}
+.overlay-btn:hover {
+    color: white;
+    transform: translateY(-5px);
+    transition: transform .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
