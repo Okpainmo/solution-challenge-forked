@@ -1,0 +1,2 @@
+### Readme file
+Releef is a hackathon project of the DSC (developer student club - Federal polytechnic Bida Nigeria). It is a project that is aimed at supporting poverty stricken regions of the world, by helping to tell the whole world their PAINFUL POVERTY stories through different means - through pictures especially.
