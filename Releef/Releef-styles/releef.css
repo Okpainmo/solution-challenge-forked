@@ -13,6 +13,9 @@ nav ul {
 .top-offset {
     margin-top: 60px;
 }
+.top-offset-2 {
+    margin-top: 100px;
+}
 .navbar-brand {
     margin-left: 20px;
 }
@@ -158,7 +161,7 @@ footer .col-lg-3 {
 }
 .about-location {
     width: 60%;
-    margin: 40px auto 0;
+    margin: 100px auto 0;
 }
 .author-image-case {
     display: inline-block;
@@ -274,16 +277,96 @@ footer .col-lg-3 {
     border-radius: 5px!important;
 }
 .plain-card-btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     transition: transform .7s ease;
 }
 .grey {
     color: #6c757d;
 }
-
-
-
-
+.main-sign-in, .main-sign-up {
+    margin: 40px auto;
+    width: 70%;
+}
+.main-sign-in .icon-case, .main-sign-up .icon-case {
+    width: 110px;
+    height: 45px;
+    margin: 0 auto;
+}
+.main-sign-in .icon-case img, .main-sign-up .icon-case img {
+    width: inherit;
+    height: inherit;
+}
+.main-sign-in .title, .main-sign-up .title {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 12px;
+}
+.main-sign-in .row, .main-sign-up .row{
+    margin-top: 15px;
+}
+.main-sign-in .card {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+.main-sign-up .card {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.main-sign-in .text, .main-sign-up .text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main-sign-in .text a, .main-sign-in .extra-text a, .main-sign-up .extra-text a {
+    color: #12028c;
+    text-decoration: underline;
+}
+.main-sign-in .text a:hover, .main-sign-in .extra-text a:hover, .main-sign-up .extra-text a:hover {
+    text-decoration: none;
+}
+.main-sign-in .card-body, .main-sign-up .card-body {
+    padding: 10px 0!important;
+}
+.main-sign-in .extra-text, .main-sign-up .extra-text {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.main-sign-up .icons-case {
+    text-align: center;
+    min-width: 200px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.icons-background {
+    min-width: 200px;
+    /* height: 40px; */
+    border-radius: 5px;
+    padding: 8px 20px;
+    display: inline-block;
+}
+.fb {
+    background-color: #368cd3;
+}
+.google {
+    background-color: #ec4c4c;
+}
+.main-sign-up .social-icons a {
+    color: white;
+}
+.main-sign-up .social-icons:hover {
+    transform: scale(1.04)!important;
+    transition: transform .7s ease;
+}
+.main-sign-up .social-icons a {
+    color: white;
+    text-decoration: none;
+}
+.font-25 {
+    font-size: 25px;
+}
 
 
 
