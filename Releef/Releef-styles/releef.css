@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@ nav ul {
     height: 35px;
 }
 nav li {
-    margin: 0 15px;
+    margin: 0 10px;
     padding: 0 5px;
 }
 nav li:hover {
@@ -320,10 +323,11 @@ footer .col-lg-3 {
 }
 .main-sign-in .text a, .main-sign-in .extra-text a, .main-sign-up .extra-text a {
     color: #12028c;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
 }
 .main-sign-in .text a:hover, .main-sign-in .extra-text a:hover, .main-sign-up .extra-text a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 .main-sign-in .card-body, .main-sign-up .card-body {
     padding: 10px 0!important;
@@ -366,6 +370,66 @@ footer .col-lg-3 {
 }
 .font-25 {
     font-size: 25px;
+}
+.about-banner, .policy-banner {
+    margin-top: 60px;
+    min-height: 120px;
+    font-size: 50px;
+    color: white;
+    background-image: url(../Images/pix-3a.jpg);
+}
+.about-banner-overlay, .policy-banner-overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    min-height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content, .policy-content {
+    font-size: 18px;
+    width: 60%;
+    margin: 20px 0px 50px 150px;
+}
+.about-header, .policy-header {
+    color: #6c757d;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 20px 0;
+    border-left: 3px solid #12028c;
+}
+.aside {
+    position: fixed;
+    top: 100px;
+    width: 300px;
+    right: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 15px 1px hsl(0, 2%, 89%)!important;  
+    background-color: white; 
+}
+.aside-header {
+    color: #6c757d;
+    /* margin-bottom: 10px; */
+    padding: 0 0 10px 20px;
+    font-weight: bold;
+}
+.aside-header::after {
+    content: "";
+    background-color: #12028c;
+    height: 2px;
+    width: 50px;
+    display: block;
+}
+.aside ul {
+    margin-bottom: 0;
+}
+.aside li {
+    padding: 3px 0;
+}
+.aside a {
+    color: #12028c;
 }
 
 
