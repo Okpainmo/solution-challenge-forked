@@ -1,0 +1,227 @@
+@media screen and (max-width:1130px) {
+    
+    /* landing page */
+    
+    .overlay-content span {
+        font-size: 60px;
+    }  
+    .section-header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:991px) {
+    
+    /* landing page */
+
+    nav ul {
+        margin: 15px auto 0 10px!important;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .overlay-content span {
+        font-size: 55px;
+    }  
+    .carousel-followup-text {
+        font-size: 30px;
+    }
+    .section-header {
+        font-size: 28px;
+    }
+    .card img {
+        height: 320px;
+    }
+    .col-lg-3, .col-lg-4 {
+        margin-bottom: 30px;
+    }
+    footer {
+        text-align: center;
+    }
+    .navbar-brand {
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width:870px) {
+    
+    /* sign-up page */
+    
+    .main-sign-up .plain-cards {
+        width: 100%!important;
+        box-sizing: border-box;
+    }
+    .main-sign-up .col-lg {
+        box-sizing: border-box;
+    }
+    .main-sign-up .row {
+        margin: 0;
+    }
+    .main-sign-up .title {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:760px) {
+
+    /* landing page */
+
+    .carousel-banner {
+        min-height: 400px;
+    }
+    .carousel-item {
+        min-height: 400px;
+    }
+    .overlay-content span {
+        font-size: 50px;
+    }  
+    .carousel-followup-text {
+        font-size: 30px;
+    }
+    .section-header {
+        font-size: 25px;
+    }
+    .follow-up-text {
+        font-size: 18px;
+    }
+    .overlay-content {
+        padding: 80px 80px 0;
+    }
+
+    /* sign-up page */
+
+    .main-sign-up {
+        width: 80%;
+    }
+}
+@media screen and (max-width:620px) {
+    
+    /* landing page */
+
+    .carousel-banner {
+        min-height: 400px;
+    }
+    .carousel-item {
+        min-height: 400px;
+    }  
+    .overlay-content span {
+        font-size: 40px;
+    }
+    .overlay-content {
+        padding: 80px 40px 0;
+    }  
+    .carousel-followup-text {
+        font-size: 25px;
+    }
+    .section-header {
+        padding: 0 15px;
+    }
+    .follow-up-text {
+        width: 90%;
+    }
+
+    /* sign-in page */
+
+    .main-sign-in .plain-cards {
+        width: 100%!important;
+        box-sizing: border-box;
+    }
+    .main-sign-in .col-lg {
+        box-sizing: border-box;
+    }
+    .main-sign-in .row {
+        margin: 0;
+    }
+    .main-sign-in .title {
+        margin-bottom: 15px;
+    }
+
+    /* sign-up page */
+    .main-sign-up .icons-case {
+        display: block;
+    }
+    .main-sign-up .social-icons {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:535px) {
+
+    /* landing page */
+
+    .overlay-content span {
+        font-size: 30px;
+    }  
+    .carousel-followup-text {
+        font-size: 20px;
+    }
+    .section-header {
+        font-size: 20px;
+    }
+    .follow-up-text {
+        font-size: 16px;
+    }
+    .overlay-content {
+        padding: 70px 40px 0 ;
+    }
+    .carousel-banner {
+        min-height: 350px;
+    }
+    .carousel-item {
+        min-height: 350px;
+    }
+    .navbar-toggler {
+        padding: 0;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+    .card img {
+        height: 250px;
+    }
+    .container {
+        padding: 0;
+    }
+    /* sign-in page */
+
+    .main-sign-in {
+        width: 80%;
+    }
+
+    /* sign-up page */
+    
+    .main-sign-up {
+        width: 90%;   
+    }
+}
+@media screen and (max-width:460px) {
+    
+    /* sign-in page */
+
+    .main-sign-in {
+        width: 90%;
+    }
+}
+@media screen and (max-width:420px) {
+    
+    /* sign-in page */
+
+    .main-sign-in {
+        width: 100%;
+    }
+
+    /* sign-up page */
+    
+    .main-sign-up {
+        width: 100%;   
+    }
+}
+@media screen and (max-width:320px) {
+
+    /* landing page */
+
+    .overlay-btn {
+        padding: 10px 20px;
+        width:90%;
+    }
+    .overlay-content {
+        padding: 50px 30px 0;
+    }
+}

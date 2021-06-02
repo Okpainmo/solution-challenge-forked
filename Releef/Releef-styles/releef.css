@@ -7,7 +7,6 @@ body {
     font-family: 'Montserrat', sans-serif!important;
 }
 nav {
-    box-shadow: 0 0 15px 1px #dedcdc; 
     background-color: white;       
 }
 nav ul {
@@ -56,7 +55,6 @@ nav li a {
     margin-left: 25px;
 }
 .section-header {
-    color: #6c757d;
     font-size: 30px;
     margin-top: 50px;
     font-weight: bold;
@@ -215,33 +213,36 @@ footer .col-lg-3 {
 .carousel-banner {
     width: 100%;
     min-height: 500px;
-    /* box-shadow: 0 0 15px 1px #dedcdc;         */
+    box-shadow: 0 0 15px 1px #333131; 
 }
 .carousel-item {
-    height: 600px;
+    min-height: 600px;
     background-size: cover;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
-    height: inherit;
+    min-height: inherit;
 }
 .overlay-content {
     padding: 130px 130px 0;
-    font-size: 70px;
     color: white;
     text-align: center;
+}
+.overlay-content span {
+    font-size: 70px;
 }
 .font-35 {
     font-size: 35px;
 }
-.small-text {
+.carousel-followup-text {
     font-size: 40px;
 }
 .overlay-btn {
-    color: white!important;
-    padding: 10px 50px!important;
-    font-size: 20px!important;
+    margin-top: 15px;
+    color: white;
+    padding: 10px 50px;
+    font-size: 20px;
 }
 .overlay-btn:hover {
     color: white;
@@ -295,16 +296,19 @@ footer .col-lg-3 {
     height: 45px;
     margin: 0 auto;
 }
-.main-sign-in .icon-case img, .main-sign-up .icon-case img {
-    width: inherit;
-    height: inherit;
+.main-sign-in .icon-case a, .main-sign-up .icon-case a{
+    display: block;
+}
+.main-sign-in .icon-case a img, .main-sign-up .icon-case a img {
+    width: 110px;
+    height: 45px;
 }
 .main-sign-in .title, .main-sign-up .title {
     font-size: 23px;
     text-align: center;
     margin-top: 12px;
 }
-.main-sign-in .row, .main-sign-up .row{
+.main-sign-in .row, .main-sign-up .row {
     margin-top: 15px;
 }
 .main-sign-in .card {
@@ -367,6 +371,7 @@ footer .col-lg-3 {
 .main-sign-up .social-icons a {
     color: white;
     text-decoration: none;
+    box-shadow: 0 5px 8px -6px black;
 }
 .font-25 {
     font-size: 25px;
