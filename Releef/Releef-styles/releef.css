@@ -308,6 +308,10 @@ footer .col-lg-3 {
     text-align: center;
     margin-top: 12px;
 }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 .main-sign-in .row, .main-sign-up .row {
     margin-top: 15px;
 }
