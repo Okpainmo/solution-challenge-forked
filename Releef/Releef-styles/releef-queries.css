@@ -195,6 +195,12 @@
     .about-banner, .policy-banner {
         margin-top: 48px;
     }
+    .top-offset {
+        margin-top: 48px;
+    }
+    .mobile {
+        margin-left: 0;
+    }
     nav ul {
         margin: 15px auto 0 10px!important;
     }
