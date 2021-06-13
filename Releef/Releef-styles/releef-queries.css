@@ -110,7 +110,7 @@
         font-size: 30px;
     }
     .section-header, .about-header, .policy-header {
-        font-size: 25px;
+        font-size: 28px;
     }
     .follow-up-text {
         font-size: 18px;
@@ -189,6 +189,12 @@
     }
 }
 @media screen and (max-width:535px) {
+    .navbar {
+        padding: .2rem .5rem;
+    }
+    .about-banner, .policy-banner {
+        margin-top: 48px;
+    }
     nav ul {
         margin: 15px auto 0 10px!important;
     }
@@ -230,6 +236,9 @@
     }    
     .about-content, .policy-content {
         padding: 0 10px;
+    }
+    .col-lg-3, .col-lg-4 {
+        padding: 0 7px;
     }
 }
 @media screen and (max-width:460px) {
