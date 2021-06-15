@@ -8,7 +8,7 @@ body {
 }
 nav {
     background-color: white;   
-    box-shadow: 0 0 10px 1px #d2cbcb;        
+    box-shadow: 0 0 10px 0 #d2cbcb;        
 }
 nav ul {
     margin-left: 50px;
