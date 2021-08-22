@@ -12,6 +12,8 @@ https://releef.netlify.app
 > whole world their PAINFUL POVERTY stories through different means - through pictures especially. And also
 > by providing a donation platform for recieving relief funds for those troubled regions.
 
+> The project is currently stopped and incomplete.
+
 ## Project Stack/Build Tools
 
 1. HTML5
